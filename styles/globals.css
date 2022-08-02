@@ -1,3 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Red+Hat+Display:wght@300;400;500;600;700;800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    --aldrich: "Aldrich", sans-serif;
+    --redHat: "Red Hat Display", sans-serif;
+    --primaryColor: #070707;
+    --secondaryColor: #fff;
+    --gray: #f0f0f0;
+    --darkgray: #2a2a2a;
+    --tealgreen: #65756b;
+    --chalk: #eed7b5;
+    --primarySize: 1rem;
+    --descriptionSize: 0.97rem;
+    --descriptionHeight: 1.5rem;
+    --headingSize: 3rem;
+    --headingSizeX: 2.2rem;
+    --titleSize: 2rem;
+  }
+}
+
+body {
+  font-family: var(--redHat);
+}
