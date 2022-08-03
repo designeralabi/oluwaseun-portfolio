@@ -29,7 +29,7 @@ const Home: NextPage = () => {
           <h1 className="text-5xl md:text-6xl font-medium">
             Pencil Artist & Creative Director
           </h1>
-          <p className="text-xl leading-relaxed mt-6">
+          <p className="text-lg leading-relaxed mt-6">
             👋 Hi there, i am Olowu, Ifeoluwa Oluwaseun a contemporary Nigerian
             Artist born in Lagos, Nigeria.
           </p>

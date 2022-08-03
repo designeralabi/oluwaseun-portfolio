@@ -8,7 +8,7 @@ const AboutMe = () => {
       <h3 className=" my-8">
         AN INTERNATIONAL DIGITAL ARTIST CREATING IMAGINARY WORK OF ART
       </h3>
-      <p className=" leading-9">
+      <p className=" leading-9 text-lg">
         Olowu, Ifeoluwa Oluwaseun is a contemporary Nigerian Artist born in
         Lagos, Nigeria. He attended Yaba College of Technology primary and
         secondary school. Having grew up surrounded by art, watching cartoons,
