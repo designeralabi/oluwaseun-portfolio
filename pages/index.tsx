@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       </Head>
       <NavMenu />
       {/* start */}
-      <div className="flex flex-col mt-14">
+      <div className="flex flex-col justify-between mt-14 md:flex-row">
         <Image
           priority
           src="/images/artist-ifeoluwa-h-pix.png"
@@ -30,7 +30,8 @@ const Home: NextPage = () => {
             Pencil Artist & Creative Director
           </h1>
           <p className="text-xl leading-relaxed mt-6">
-            👋 Hi there, i am Olowu, Ifeoluwa Oluwaseun a contemporary Nigerian Artist born in Lagos, Nigeria.
+            👋 Hi there, i am Olowu, Ifeoluwa Oluwaseun a contemporary Nigerian
+            Artist born in Lagos, Nigeria.
           </p>
         </div>
       </div>
@@ -40,8 +41,8 @@ const Home: NextPage = () => {
       <AR />
       <div className="">
         <Nft />
-        <div className="p-6">
-          <p className="text-lg">
+        <div className="px-6 py-12 flex flex-col">
+          <p className="text-lg leading-9">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industrys standard dummy textever
             since the 1500s, when an unknown printer took a galley of type and
@@ -52,9 +53,9 @@ const Home: NextPage = () => {
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum
           </p>
-          <div>
-            <p>Olowuife Oluwaseun</p>
-            <p>Artist</p>
+          <div className=" my-8">
+            <p className=" font-bold uppercase">Olowuife Oluwaseun</p>
+            <p className=" uppercase">Artist</p>
           </div>
         </div>
       </div>

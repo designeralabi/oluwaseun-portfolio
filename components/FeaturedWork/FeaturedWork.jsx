@@ -3,7 +3,7 @@ import featured from "./Featured";
 
 const FeaturedWork = () => {
   return (
-    <div className=" p-6">
+    <div className=" grid grid-cols-1 sm:grid-cols-2 sm:gap-3 p-6 lg:grid-cols-4">
       {featured.map((feature) => (
         <div key={feature.id} className="flex flex-col my-3">
           <Image
